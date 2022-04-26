@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.sx {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 20%;
+}
+
+.dati {
+    display: flex;
+    flex-flow: column;
+}
+
+.profilo {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+}
+
+.faccia {
+    margin: 5px 0px;
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.descrizione {
+
+    background-color: grey;
+    width: 80%;
+    height: 10px;
+}
+
+.dess {
+    margin: 5px 5px 5px 5px;
+    background-color: grey;
+    height: 10px;
+    width: 80%;
+}
+
+.dx {
+    height: 100vh;
+    width: 30%;
+}
+
+.sxfooter {
+    background-color: grey;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    height: 100vh;
+    width: 50%;
+}
+
+
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.bigger {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
